@@ -50,3 +50,61 @@ header {
     width: 439px;
     height: 80px;
 }
+
+/* team img section */
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+}
+
+.team-img-1 img {
+    width: 75%;
+    margin-bottom: 89px;
+    margin-top: 244px;
+}
+
+.team-img-2 img {
+    width: 75%;
+    margin-top: 396px;
+    margin-bottom: 77px;
+}
+
+.team-img-3 img {
+    width: 75%;
+    margin-top: 300px;
+    margin-bottom: 66px;
+}
+
+.team-img-4 img {
+    width: 75%;
+}
+
+.team-img-5 img {
+    width: 75%;
+    margin-top: 90px;
+}
+
+.team-img-6 img {
+    width: 75%;
+}
+
+/* footer section */
+
+footer p {
+    /* border: 1px solid black; */
+    color: #BDBDBD;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.tanvirjem2 {
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    font-family: Montserrat;
+}
