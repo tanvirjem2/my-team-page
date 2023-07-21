@@ -56,25 +56,24 @@ header {
 .team-img-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 200px;
+    margin-left: 120px;
+    /* border: 1px solid black; */
+    margin-bottom: 185px;
 }
 
 .team-img-1 img {
     width: 75%;
-    margin-bottom: 89px;
     margin-top: 244px;
 }
 
 .team-img-2 img {
     width: 75%;
     margin-top: 396px;
-    margin-bottom: 77px;
 }
 
 .team-img-3 img {
     width: 75%;
     margin-top: 300px;
-    margin-bottom: 66px;
 }
 
 .team-img-4 img {
@@ -88,6 +87,27 @@ header {
 
 .team-img-6 img {
     width: 75%;
+}
+
+.team-img-p {
+
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.name-1 {
+    color: #000;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    position: absolute;
+    transform: rotate(90deg);
+    /* right: -10px; */
 }
 
 /* footer section */
@@ -107,4 +127,70 @@ footer p {
     font-weight: 700;
     text-decoration-line: underline;
     font-family: Montserrat;
+}
+
+
+/* Responsive section */
+
+@media screen and (max-width:576px) {
+    header {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .team-header h3 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+
+    .team-description {
+        margin-top: 0px;
+    }
+
+    .team-description p {
+        color: #000;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        width: 439px;
+        height: 80px;
+    }
+
+    /* team img container */
+    .team-img-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .team-img-1 img {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .team-img-2 img {
+        width: 80%;
+        margin-top: 67px;
+    }
+
+    .team-img-3 img {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .team-img-4 img {
+        width: 80%;
+        margin-top: 70px;
+    }
+
+    .team-img-5 img {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .team-img-6 img {
+        width: 80%;
+        margin-top: 80px;
+    }
 }
