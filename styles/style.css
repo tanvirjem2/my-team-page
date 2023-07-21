@@ -3,3 +3,50 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Serif', serif;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.team-header h3 {
+    /* border: 1px solid black; */
+
+    color: #000;
+    font-family: PT Serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.62px;
+
+    margin-left: 200px;
+    margin-top: 55px;
+}
+
+.team-description {
+    margin-right: 250px;
+    margin-top: 110px;
+}
+
+.team-description h4 {
+    /* border: 1px solid black; */
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.team-description p {
+    /* border: 1px solid black; */
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+
+    width: 439px;
+    height: 80px;
+}
